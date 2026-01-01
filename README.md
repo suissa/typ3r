@@ -1,4 +1,6 @@
-# One‑Typer‑4‑All
+<p>
+<img src="https://i.imgur.com/dUqOBQb.png" alt="one-typer-4-all">
+</p>
 
 > **Local Package Manager for Type Definitions**
 >
