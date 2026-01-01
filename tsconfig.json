@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+
+    // CRUCIAL: Permite importar de pastas sem index explícito se necessário
+    "moduleResolution": "node",
+
+    // CRUCIAL: Como estamos usando Symlinks para uma pasta FORA do projeto (~/.atomic...),
+    // precisamos dizer ao TS para "preserveSymlinks" se quisermos que ele trate
+    // o caminho como local (útil para debug), OU false (padrão) para ele resolver o real.
+    // Para build autocontido, false geralmente é melhor pois o compilador lê o arquivo real.
+    "preserveSymlinks": false,
+
+    // Configura o Path Mapping para facilitar o import
+    "baseUrl": ".",
+    "paths": {
+      "@types": ["src/types/index.ts"], // Adicione esta linha para importar direto de '@types'
+      "@types/*": ["src/types/*"] // Mantém esta para importar arquivos específicos
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
