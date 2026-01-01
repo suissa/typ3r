@@ -1,9 +1,19 @@
 {
   "name": "one-typer-4-all",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
+  "bin": {
+    "one-typer-4-all": "./src/cli.js",
+    "mytyper": "./src/cli.js",
+    "onetyper": "./src/cli.js",
+    "onetyper4all": "./src/cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "one-typer-4-all": "node ./src/cli.js",
+    "mytyper": "node ./src/cli.js",
+    "onetyper": "node ./src/cli.js",
+    "onetyper4all": "node ./src/cli.js"
   },
   "keywords": [],
   "author": "",
