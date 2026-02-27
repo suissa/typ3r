@@ -1,0 +1,13 @@
+{
+  "brand": "time.timestamp",
+  "primitive": "Date",
+  "description": "Instante absoluto no tempo representado como objeto Date.",
+  "validations": [
+    "valor deve ser um Date válido"
+  ],
+  "ops": [
+    "of",
+    "un"
+  ],
+  "examples": []
+}

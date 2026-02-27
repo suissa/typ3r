@@ -1,0 +1,13 @@
+{
+  "brand": "time.localTime",
+  "primitive": "string",
+  "description": "Representa um horário local no formato HH:mm:ss.",
+  "validations": [
+    "valor deve ser um string válido"
+  ],
+  "ops": [
+    "of",
+    "un"
+  ],
+  "examples": []
+}

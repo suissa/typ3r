@@ -1,0 +1,13 @@
+{
+  "brand": "time.localDate",
+  "primitive": "Date",
+  "description": "Representa uma data local (ano, mês, dia) sem informação de fuso horário.",
+  "validations": [
+    "valor deve ser um Date válido"
+  ],
+  "ops": [
+    "of",
+    "un"
+  ],
+  "examples": []
+}

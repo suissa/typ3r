@@ -188,4 +188,28 @@ function main() {
   }
 }
 
-main();
+// Export functions for testing purposes
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    log,
+    ensureDir,
+    findFiles,
+    harvestTypes,
+    linkTypes,
+    generateIndex,
+    main,
+    // Configuration constants for testing
+    GLOBAL_SHARED_PATH,
+    LOCAL_TYPES_DIR,
+    LOCAL_SHARED_LINK_DIR,
+    INDEX_FILE,
+    TYPE_FILE_SUFFIX,
+    PROJECT_ROOT,
+    SRC_DIR
+  };
+}
+
+// Only run main if this is the main module (not required by another module)
+if (require.main === module) {
+  main();
+}

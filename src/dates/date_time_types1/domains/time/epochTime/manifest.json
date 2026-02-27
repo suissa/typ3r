@@ -1,0 +1,13 @@
+{
+  "brand": "time.epochTime",
+  "primitive": "number",
+  "description": "Representa um horário como timestamp numérico (milissegundos desde 1970-01-01 UTC).",
+  "validations": [
+    "valor deve ser um number válido"
+  ],
+  "ops": [
+    "of",
+    "un"
+  ],
+  "examples": []
+}

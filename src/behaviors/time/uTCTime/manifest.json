@@ -1,0 +1,13 @@
+{
+  "brand": "time.uTCTime",
+  "primitive": "Date",
+  "description": "Representa um horário absoluto no fuso horário UTC.",
+  "validations": [
+    "valor deve ser um Date válido"
+  ],
+  "ops": [
+    "of",
+    "un"
+  ],
+  "examples": []
+}

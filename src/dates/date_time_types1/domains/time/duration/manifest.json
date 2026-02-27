@@ -1,0 +1,13 @@
+{
+  "brand": "time.duration",
+  "primitive": "number",
+  "description": "Representa uma duração em milissegundos.",
+  "validations": [
+    "valor deve ser um number válido"
+  ],
+  "ops": [
+    "of",
+    "un"
+  ],
+  "examples": []
+}
